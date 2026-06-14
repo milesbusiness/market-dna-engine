@@ -1,0 +1,91 @@
+# Data — stored locally in E:\TradeStore, not committed
+*.parquet
+*.csv
+*.duckdb
+*.db
+*.rdb
+
+# Logs and operational files
+*.log
+*.txt
+ingest_checkpoint*
+ingest_sources_done*
+checkpoint_backups/
+ingest_progress.txt
+check_output.txt
+verify_output.txt
+fast_ingest22.log
+
+# Private pipeline / ingest scripts (operational, not portfolio)
+data_pipeline.py
+ingest*.py
+fast_ingest*.py
+fix_*.py
+phase_*.py
+rebuild_*.py
+repair_*.py
+migrate_*.py
+audit_tradestore.py
+add_new_broker_data.py
+download_nse_bhavcopy.py
+verify_*.py
+check_*.py
+_*.py
+watchdog_*.py
+watchdog_*.vbs
+run_watchdog_hidden.vbs
+tradestore_dashboard.py
+market_db.py
+backtest_example.py
+
+# Private session notes and career docs
+SESSION_CONTEXT.md
+SESSION_NEXT.md
+DATA_STORE_SESSION_NOTES.md
+PORTFOLIO_PLAN.md
+AUDIT_REPORT.md
+TRADESTORE_GUIDE.md
+TRADESTORE_ARCHITECTURE.md
+TRADESTORE_DATA_MODEL.md
+HISTORICAL_DATA_PIPELINE.md
+
+# Raw data folders
+BrokerHistoricalData/
+DailyHistoricalData/
+HistoricalData/
+Data/
+FromURL/
+Old/
+Others/
+PaperTrade/
+App/
+Brokers/
+nse/
+
+# Instruments / config
+instruments.csv
+fo_mktlots.csv
+
+# Do not ignore requirements.txt
+!requirements.txt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.env
+
+# Images / scratch output
+*.png
+nifty_trades.csv
+nifty_v2_*.csv
+
+# Claude internal
+.claude/
+
+# Misc
+F:TradePlatformdocs/
+dump.rdb
+OPTIONS_DATA_GUIDE.md
