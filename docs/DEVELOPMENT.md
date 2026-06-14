@@ -97,3 +97,14 @@ Run `market_dna.py` first to build the database before querying.
 netstat -ano | findstr :5050
 taskkill /PID <pid> /F
 ```
+
+---
+
+## References
+
+- [DuckDB Python API](https://duckdb.org/docs/api/python/overview)
+- [NSE India historical data portal](https://www.nseindia.com/products-services/indices-historical-data)
+- [yfinance docs — extend data from Yahoo Finance](https://ranaroussi.github.io/yfinance/)
+- [PyArrow Parquet read/write](https://arrow.apache.org/docs/python/parquet.html)
+- [Flask docs — quickstart](https://flask.palletsprojects.com/en/stable/quickstart/)
+- [YouTube: DuckDB — The SQLite for Analytics (CMU Database Group, 45 min)](https://www.youtube.com/watch?v=PFUZlNQIndo)

@@ -135,3 +135,24 @@ SHORT bias: 88% of total profit
 | Edge scanner (all 2-condition combos) | ~15s |
 | DuckDB SQL query | <100ms |
 | Backtest API response | ~1.5s |
+
+---
+
+## References
+
+### DuckDB
+- [DuckDB docs — Analytical SQL on local files](https://duckdb.org/docs/)
+- [DuckDB vs SQLite for analytics (benchmark)](https://duckdb.org/2021/05/14/sql-on-pandas.html)
+- [YouTube: DuckDB — The SQLite for Analytics (CMU Database Group)](https://www.youtube.com/watch?v=PFUZlNQIndo)
+
+### Market Microstructure & Strategy Research
+- [Ernie Chan — Algorithmic Trading: Winning Strategies and Their Rationale](https://www.wiley.com/en-us/Algorithmic+Trading%3A+Winning+Strategies+and+Their+Rationale-p-9781118460146)
+- [Opening Range Breakout — Toby Crabel's original research](https://www.amazon.com/Day-Trading-Short-Term-Methods-Volatility/dp/0934380236)
+- [NSE India — Index methodology (NIFTY 50)](https://www.niftyindices.com/Methodology/Method_NIFTY_Equity_Indices.pdf)
+- [VIX India methodology (India VIX)](https://www.nseindia.com/products-services/indices-indiavix)
+
+### Python Stack
+- [pandas docs](https://pandas.pydata.org/docs/)
+- [PyArrow + Parquet](https://arrow.apache.org/docs/python/parquet.html)
+- [Flask quickstart](https://flask.palletsprojects.com/en/stable/quickstart/)
+- [Chart.js docs](https://www.chartjs.org/docs/latest/)
